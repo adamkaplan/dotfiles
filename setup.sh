@@ -4,7 +4,7 @@ LN="ln -s"
 SOURCE=`pwd`
 
 `git submodule init 1>/dev/null`
-`git submodule update 1>/dev/null`
+`git submodule update --recursive 1>/dev/null`
 
 # vim (core)
 $LN $SOURCE/dot_vim/vimrc ~/.vimrc
