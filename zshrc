@@ -31,7 +31,8 @@ alias guid="echo -n ${GILT_GUID} | pbcopy -Prefer txt && pbpaste && echo ' copie
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(vi-mode fasd git scala sbt brew osx terminalapp textmate copydir colored-man)
+# vi-mode is great, but disabled because it kills performance on Mavericks
+plugins=(fasd git scala sbt brew osx terminalapp textmate copydir colored-man)
 
 source $ZSH/oh-my-zsh.sh
 
