@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-LN="ln -s"
+LN="ln -sf"
 SOURCE=`pwd`
 
 `git submodule init 1>/dev/null`
